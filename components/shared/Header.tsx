@@ -6,7 +6,7 @@ import { Button } from '../ui/button'
 import NavItems from './NavItems'
 import MobileNav from './MobileNav'
 
-const header = () => {
+const Header = () => {
   return (
     <header className=' w-full border-b'> 
     <div className='wrapper flex items-center justify-between'>
@@ -39,4 +39,4 @@ const header = () => {
   )
 }
 
-export default header
+export default Header
